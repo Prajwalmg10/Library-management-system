@@ -1,0 +1,43 @@
+.forms div{
+    display: flex;
+    flex-direction: column;
+}
+.forms input,textarea{
+    width: 50%;
+    height: 25px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+}
+.forms label{
+    font-size: 18px;
+}
+.forms{
+    margin-left: 32%;
+}
+.forms button{
+    font-size: 17px;
+    background-color: green; 
+    border: none;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 6px;
+    margin-left: 20%;
+}
+.forms button:hover{
+    background-color: white;
+    color: green;
+    border: 1px green solid;
+}
+.addbooks{
+    color: rgb(255, 245, 245);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../../public/images/books-bg.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.adduser{
+    color: rgb(255, 245, 245);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../../public/images/bg.jpg");
+    height: 100vh;
+    background-size: cover;
+}

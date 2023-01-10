@@ -1,0 +1,48 @@
+.books{   
+    color: white;
+    margin: 5px 20px;  	 
+    padding: 15px; 
+    background-color: rgb(27, 34, 48);
+    border: 2px black solid;
+    display: flex;
+    justify-content: flex-start;
+}
+.booksinfo{
+    margin-left: 100px;
+}
+.delete{
+    color: white;
+    background-color:red;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 30px;
+}
+.delete:hover{
+    color: red;
+    background-color:whitesmoke;
+}
+#read{
+    border: none;
+    border-radius: 6px;
+    padding: 7px 30px;
+    color:  white;
+    background-color:blue;
+    margin-right: 10px;
+}
+#read:hover{
+    color: blue;
+    background-color: white;
+}
+.books img{
+    width: 250px;
+    border-radius: 4px;
+}
+.detail{
+   text-align: center;
+}
+.detail h1{
+    margin: 0px;
+}
+.booklist{
+ background-color: rgb(97, 97, 97);
+}

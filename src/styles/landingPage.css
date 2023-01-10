@@ -1,0 +1,53 @@
+.landingpage{
+    background-image: url("../../public/images/frontpage.jpg");
+    width: 150vh;
+    height: 100vh;
+    background-size: contain;
+    text-align: center;
+    margin-left: 200px;
+}
+.portal{
+    width:40%;
+    height: 40%;
+    position: absolute;
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)), url(../../public/images/bg.jpg);
+    background-size: cover;
+    top: 20%;
+    left: 30%;
+    border-radius: 10px;
+}
+.portal img{
+    width: 140px;
+    border-radius: 150px;
+    margin-bottom: 10px;
+}
+.portallogin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+      
+}
+.portal_admin {
+    display: flex;
+    flex-direction: column;
+}
+.portal_user{
+    display: flex;
+    flex-direction: column;
+}
+
+#admin_btn{
+    color: whitesmoke;
+    background-color: rgb(233 115 45);
+    border: 1px rgb(233 115 45) solid;
+    padding: 5px 12px;
+    border-radius: 9px;
+}
+#user_btn{
+    color: whitesmoke;
+    background-color: green;
+    border: 1px green solid;
+    padding: 5px 12px;
+    border-radius: 9px;
+}

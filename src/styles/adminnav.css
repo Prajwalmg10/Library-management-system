@@ -1,0 +1,27 @@
+.adminnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(27, 34, 48);
+    background-size: contain;
+    color: whitesmoke;
+    position: sticky;
+    top: 0px;
+}
+.admin_navpro{
+    margin-left: 30px;
+    text-shadow: 1px 1px 10px black;
+}
+.admin_navlinks ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 40px;
+}
+.admin_navlinks li{
+    margin-right: 20px;
+}
+.admin_navlinks a:hover{
+    text-shadow: 1px 1px 1px black;
+    color: rgb(0, 191, 255);
+    text-decoration:overline;
+}
