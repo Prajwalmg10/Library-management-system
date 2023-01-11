@@ -7098,6 +7098,11 @@
     }
   ],
   "user": [
-    {}
+    {"name": "user",
+    "email": "user@gmail.com",
+    "phoneNumber": "9876540321",
+    "password": "user@123",
+    "id": 1
+  }
   ]
 }
