@@ -7055,9 +7055,19 @@
       "longDescription": "It follows Harry Potter, a wizard in his fourth year at Hogwarts School of Witchcraft and Wizardry, and the mystery surrounding the entry of Harry's name into the Triwizard Tournament, in which he is forced to compete. The book was published in the United Kingdom by Bloomsbury and in the United States by Scholastic.",
       "thumbnailUrl": "https://m.media-amazon.com/images/I/513TQ4ihqqL.jpg",
       "id": 797
+    },
+    {
+      "title": "Wings of Fire",
+      "pageCount": "180",
+      "categories": "Autobiography",
+      "authors": "A. P. J. Abdul Kalam , Arun Tiwari",
+      "shortDescription": "Wings of Fire (1999), is the autobiography of the Missile Man of India and President of India, Dr. A. P. J. Abdul Kalam. It was written by him and Arun Tiwari.[1]",
+      "longDescription": "In the autobiography, Kalam examines his early life, effort, hardship, fortitude, luck and chance that eventually led him to lead Indian space research, nuclear and missile programs. Kalam started his career, after graduating from Aerospace engineering at Madras Institute of Technology, at Hindustan Aeronautics Limited and was assigned to build a hovercraft prototype.",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/3/3a/Wings_of_Fire_by_A_P_J_Abdul_Kalam_Book_Cover.jpg",
+      "id": 798
     }
   ],
-  "users": [
+  "admin": [
     {
       "name": "admin",
       "email": "admin@gmail.com",
@@ -7075,9 +7085,19 @@
     {
       "name": "admin3",
       "email": "admin3@gmail.com",
-      "phoneNo": "9876543210",
+      "phoneNumber": "9876543210",
       "password": "admin3@123",
       "id": 3
+    },
+    {
+      "name": "admin4",
+      "email": "admin4@gmail.com",
+      "phoneNumber": "9876540321",
+      "password": "admin4@123",
+      "id": 4
     }
+  ],
+  "user": [
+    {}
   ]
 }

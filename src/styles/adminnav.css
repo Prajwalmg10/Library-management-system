@@ -1,4 +1,4 @@
-.adminnav{
+.nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,19 +8,19 @@
     position: sticky;
     top: 0px;
 }
-.admin_navpro{
+.navpro{
     margin-left: 30px;
     text-shadow: 1px 1px 10px black;
 }
-.admin_navlinks ul{
+.navlinks ul{
     display: flex;
     justify-content: space-evenly;
     margin-right: 40px;
 }
-.admin_navlinks li{
+.navlinks li{
     margin-right: 20px;
 }
-.admin_navlinks a:hover{
+.navlinks a:hover{
     text-shadow: 1px 1px 1px black;
     color: rgb(0, 191, 255);
     text-decoration:overline;

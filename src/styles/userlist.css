@@ -2,6 +2,26 @@
     display: inline-table;
     border: 2px black solid;
     border-radius: 20px;
-    margin: 15px;
-    padding: 15px;
+    background-color: rgb(27, 34, 48);
+    margin: 30px;
+    padding: 0px 15px 15px;
+}
+.user h2{
+    margin-top: 0px;
+}
+.userlist{
+    background-color: rgb(97, 97, 97);
+    height: 100%;
+    text-align:  center;
+    color: aliceblue;
+}
+.userlist h1{
+    margin: 0px;
+}
+.user img{
+    border: 2px white solid;
+    position: relative;
+    top: -50px;
+    width: 100px;
+    border-radius: 50px;
 }

@@ -3,12 +3,12 @@ import {useNavigate} from 'react-router-dom'
 const AddUser = () => {
     let [name, setName] = useState([])
     let [email, setEmail] = useState([])
-    let [phoneNo,setPhoneNo]=useState([])
+    let [phoneNumber,setPhoneNo]=useState([])
     let [password,setPassword]=useState([])
     let navigate=useNavigate()
     let adduser = (e) => {
         e.preventDefault()
-        let data = {name,email,phoneNo,password}
+        let data = {name,email,phoneNumber,password}
         fetch("http://localhost:1001/users", {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -31,7 +31,7 @@ const AddUser = () => {
             </div>
             <div className="phoneNo">
                 <label htmlFor="phoneNo">Phone Number*</label>
-                <input required name="phoneNo" maxLength={10} minLength={10} type="tel" value={phoneNo} onChange={(e) => { setPhoneNo(e.target.value) }}  placeholder="Phone Number"  />
+                <input required name="phoneNo" maxLength={10} minLength={10} type="tel" value={phoneNumber} onChange={(e) => { setPhoneNo(e.target.value) }}  placeholder="Phone Number"  />
             </div>
             <div className="password">
                 <label htmlFor="password">Password*</label>

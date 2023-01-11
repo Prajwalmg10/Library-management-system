@@ -3,7 +3,7 @@ import '../styles/landingPage.css'
 const LandingPage = () => {
     return (<div className="landingpage">
         <div className="portal">
-        <h1 style={{color:"white"}}>Libraray Management System</h1>
+        <h1>Libraray Management System</h1>
             <div className="portallogin"> 
                 <div  className="portal_admin">
                     <img src="images/adminimg.png" alt="" />

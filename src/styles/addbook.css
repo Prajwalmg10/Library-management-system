@@ -5,8 +5,8 @@
 .forms input,textarea{
     width: 50%;
     height: 25px;
-    margin-bottom: 15px;
     border: none;
+    margin-bottom: 15px;
     border-radius: 4px;
 }
 .forms label{
@@ -37,7 +37,7 @@
 }
 .adduser{
     color: rgb(255, 245, 245);
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../../public/images/bg.jpg");
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../../public/images/bg.jpg");
     height: 100vh;
     background-size: cover;
 }

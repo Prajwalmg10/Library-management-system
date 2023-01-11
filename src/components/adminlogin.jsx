@@ -16,14 +16,14 @@ const AdminLogin = () => {
             setusers(user)
         }
         admindata()
-        navigate("/admin/")
-    //     for (let i = 0; i < users.length; i++) {
-    //         if(users[i].email==data.email&& users[i].password==data.password)
-    //         {
-    //             navigate("/admin/")
-    //         }
-    //     }
-    //     alert('Invalid username or password')
+        // navigate("/admin/")
+        for (let i = 0; i < users.length; i++) {
+            if(users[i].email==data.email&& users[i].password==data.password)
+            {
+                navigate("/admin/")
+            }
+        }
+        alert('Invalid username or password')
     }
 
 

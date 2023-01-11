@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 import '../styles/adminnav.css';
 const Adminnav = () => {
-    return ( <div className="adminnav">
-        <div className="admin_navpro">
+    return ( <div className="nav">
+        <div className="navpro">
             <Link>Admin</Link>
         </div>
-        <div className="admin_navimg">
+        <div className="navimg">
               <a href=""> <img src="images/navlogo.png" alt="" /></a>
         </div>
-        <div className="admin_navlinks">
+        <div className="navlinks">
             <ul type="none">
 
                 <li><Link to="/admin/">Home</Link></li>
